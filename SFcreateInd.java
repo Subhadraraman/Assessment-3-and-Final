@@ -48,7 +48,7 @@ public class SFcreateInd {
 	        driver.findElement(By.xpath("//div[@title='Edit']")).click();
 	        
 	        driver.findElement(By.xpath("//a[@class='select']")).click();
-	        driver.findElement(By.xpath("//a[text()='Mr.']")).click();
+	        driver.findElement(By.xpath("//a[text()='Mrs.']")).click();
 	        //Select drpdownSal = new Select(driver.findElement(By.xpath("//a[@class='select']")));
 	        //drpdownSal.selectByVisibleText("Mrs.");
 	        
